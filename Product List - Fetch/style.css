@@ -10,19 +10,19 @@
   .price {
     font-weight: bold;
     font-size: 1.2rem;
-    color: #198754; /* Bootstrap success green */
+    color: #198754; 
   }
   
   .stock {
     font-weight: 600;
   }
   .stock.low {
-    color: #dc3545; /* Bootstrap danger red */
+    color: #dc3545; 
   }
   .stock.medium {
-    color: #ffc107; /* Bootstrap warning yellow */
+    color: #ffc107; 
   }
   .stock.high {
-    color: #198754; /* Bootstrap success green */
+    color: #198754;
   }
   
