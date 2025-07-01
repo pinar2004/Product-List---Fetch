@@ -1,0 +1,28 @@
+.card-img-top {
+    object-fit: cover;
+    height: 180px;
+    transition: transform 0.3s ease;
+  }
+  .card:hover .card-img-top {
+    transform: scale(1.05);
+  }
+  
+  .price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #198754; /* Bootstrap success green */
+  }
+  
+  .stock {
+    font-weight: 600;
+  }
+  .stock.low {
+    color: #dc3545; /* Bootstrap danger red */
+  }
+  .stock.medium {
+    color: #ffc107; /* Bootstrap warning yellow */
+  }
+  .stock.high {
+    color: #198754; /* Bootstrap success green */
+  }
+  
